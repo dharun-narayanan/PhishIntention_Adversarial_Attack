@@ -1,24 +1,10 @@
 # PhishIntention
-<div align="center">
-
-![Dialogues](https://img.shields.io/badge/Proctected\_Brands\_Size-277-green?style=flat-square)
-
-</div>
-<p align="center">
-  <a href="https://www.usenix.org/conference/usenixsecurity22/presentation/liu-ruofan">Paper</a> •
-  <a href="https://sites.google.com/view/
-phishintention">Website</a> •
-  <a href="https://www.youtube.com/watch?v=yU7FrlSJ818">Video</a> •
-  <a href="#citation">Citation</a>
-</p>
-
-## PhishIntention
-- This is the official implementation of "Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision-Based Approach"USENIX'22 [link to paper](http://linyun.info/publications/usenix22.pdf), [link to our website](https://sites.google.com/view/phishintention/home)
+- Implementation of Adversarial Attacks on "Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision-Based Approach"USENIX'22 [link to original paper](http://linyun.info/publications/usenix22.pdf), [PhishIntention Github](https://github.com/lindsey98/PhishIntention)
 
 - Existing reference-based phishing detectors:
    - :x: Subject to false positive because they **only capture brand intention**
      
-- The contributions of our paper:
+- The contributions of PhishIntention paper:
    - :white_check_mark: We propose a referenced-based phishing detection system that captures both brand intention and **credential-taking intention**. To the best of our knowledge, this is the first work that analyzes both brand intention and credential-taking intentions in a systematic way for phishing detection.
    - :white_check_mark: We set up a **phishing monitoring system**. It reports phishing webpages per day with the **highest precision** in comparison to state-of-the-art phishing detection solutions.
 
@@ -100,11 +86,131 @@ test_site_2
 ......
 ```
 
-## Miscellaneous
-- In our paper, we also implement several phishing detection and identification baselines, see [here](https://github.com/lindsey98/PhishingBaseline)
+5. White-box Attack 
+```bash
+python WhiteBox_Attack.py
+```
+
+6. Blac-box Attack 
+```bash
+python BlackBox_Attack.py
+```
+
+The Outputs will be generated in the following structure:
+
+```
+WhiteBox_attack_result
+|__ test_site_1
+|__|__ fgsm_perturbed.png
+|__|__ fgsm_vis.png
+|__|__ original_vis.png
+|__|__ pgd_perturbed.png
+|__|__ pgd_vis.png
+|__ test_site_2
+|__|__ fgsm_perturbed.png
+|__|__ fgsm_vis.png
+|__|__ original_vis.png
+|__|__ pgd_perturbed.png
+|__|__ pgd_vis.png
+```
+
+```
+Black_attack_result
+|__ test_site_1
+|__|__ color
+|__|__|__ color_variation_0_params.txt
+|__|__|__ color_variation_0.png
+|__|__|__ color_variation_1_params.txt
+|__|__|__ color_variation_1.png
+|__|__|__ color_variation_2_params.txt
+|__|__|__ color_variation_2.png
+|__|__|__ color_variation_3_params.txt
+|__|__|__ color_variation_3.png
+|__|__|__ color_variation_4_params.txt
+|__|__|__ color_variation_4.png
+|__|__ jpeg
+|__|__|__ jpeg_variation_0_params.txt
+|__|__|__ jpeg_variation_0.png
+|__|__|__ jpeg_variation_1_params.txt
+|__|__|__ jpeg_variation_1.png
+|__|__|__ jpeg_variation_2_params.txt
+|__|__|__ jpeg_variation_2.png
+|__|__|__ jpeg_variation_3_params.txt
+|__|__|__ jpeg_variation_3.png
+|__|__|__ jpeg_variation_4_params.txt
+|__|__|__ jpeg_variation_4.png
+|__|__ spatial
+|__|__|__ spatial_variation_0_params.txt
+|__|__|__ spatial_variation_0.png
+|__|__|__ spatial_variation_1_params.txt
+|__|__|__ spatial_variation_1.png
+|__|__|__ spatial_variation_2_params.txt
+|__|__|__ spatial_variation_2.png
+|__|__|__ spatial_variation_3_params.txt
+|__|__|__ spatial_variation_3.png
+|__|__|__ spatial_variation_4_params.txt
+|__|__|__ spatial_variation_4.png
+|__|__ uap
+|__|__|__ uap_variation_0_params.txt
+|__|__|__ uap_variation_0.png
+|__|__|__ uap_variation_1_params.txt
+|__|__|__ uap_variation_1.png
+|__|__|__ uap_variation_2_params.txt
+|__|__|__ uap_variation_2.png
+|__|__|__ uap_variation_3_params.txt
+|__|__|__ uap_variation_3.png
+|__|__|__ uap_variation_4_params.txt
+|__|__|__ uap_variation_4.png
+|__ test_site_2
+|__|__ color
+|__|__|__ color_variation_0_params.txt
+|__|__|__ color_variation_0.png
+|__|__|__ color_variation_1_params.txt
+|__|__|__ color_variation_1.png
+|__|__|__ color_variation_2_params.txt
+|__|__|__ color_variation_2.png
+|__|__|__ color_variation_3_params.txt
+|__|__|__ color_variation_3.png
+|__|__|__ color_variation_4_params.txt
+|__|__|__ color_variation_4.png
+|__|__ jpeg
+|__|__|__ jpeg_variation_0_params.txt
+|__|__|__ jpeg_variation_0.png
+|__|__|__ jpeg_variation_1_params.txt
+|__|__|__ jpeg_variation_1.png
+|__|__|__ jpeg_variation_2_params.txt
+|__|__|__ jpeg_variation_2.png
+|__|__|__ jpeg_variation_3_params.txt
+|__|__|__ jpeg_variation_3.png
+|__|__|__ jpeg_variation_4_params.txt
+|__|__|__ jpeg_variation_4.png
+|__|__ spatial
+|__|__|__ spatial_variation_0_params.txt
+|__|__|__ spatial_variation_0.png
+|__|__|__ spatial_variation_1_params.txt
+|__|__|__ spatial_variation_1.png
+|__|__|__ spatial_variation_2_params.txt
+|__|__|__ spatial_variation_2.png
+|__|__|__ spatial_variation_3_params.txt
+|__|__|__ spatial_variation_3.png
+|__|__|__ spatial_variation_4_params.txt
+|__|__|__ spatial_variation_4.png
+|__|__ uap
+|__|__|__ uap_variation_0_params.txt
+|__|__|__ uap_variation_0.png
+|__|__|__ uap_variation_1_params.txt
+|__|__|__ uap_variation_1.png
+|__|__|__ uap_variation_2_params.txt
+|__|__|__ uap_variation_2.png
+|__|__|__ uap_variation_3_params.txt
+|__|__|__ uap_variation_3.png
+|__|__|__ uap_variation_4_params.txt
+|__|__|__ uap_variation_4.png
+```
+
 
 ## Citation
-Please consider citing our work :)
+
 ```bibtex
 @inproceedings{liu2022inferring,
   title={Inferring Phishing Intention via Webpage Appearance and Dynamics: A Deep Vision Based Approach},
@@ -113,4 +219,4 @@ Please consider citing our work :)
   year={2022}
 }
 ```
-If you have any issues running our code, you can raise an issue or send an email to [liu.ruofan16@u.nus.edu, lin_yun@sjtu.edu.cn, dcsdjs@nus.edu.sg](mailto:liu.ruofan16@u.nus.edu,lin_yun@sjtu.edu.cn,dcsdjs@nus.edu.sg)
+

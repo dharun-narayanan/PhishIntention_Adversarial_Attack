@@ -1,0 +1,42 @@
+==================================================
+ATTACK RESULTS SUMMARY
+==================================================
+
+Overall Statistics:
+- Total attacks performed: 2000
+- Successful attacks: 740
+- Overall success rate: 37.00%
+
+Per-Attack Statistics:
+- JPEG:
+  * Total attempts: 500
+  * Successful: 112
+  * Success rate: 22.40%
+- UAP:
+  * Total attempts: 500
+  * Successful: 435
+  * Success rate: 87.00%
+- SPATIAL:
+  * Total attempts: 500
+  * Successful: 114
+  * Success rate: 22.80%
+- COLOR:
+  * Total attempts: 500
+  * Successful: 79
+  * Success rate: 15.80%
+
+Per-Site Statistics:
+- Total sites tested: 100
+- Sites with successful attacks: 92
+- Site success rate: 92.00%
+
+Visualization files:
+- Success rate plot: /Users/lakshmid/Documents/Empirical_Security/PhishIntention/BlackBox_attack_results/success_rates.png
+- Detailed JSON summary: attack_summary.json
+
+==================================================
+EXECUTION TIME SUMMARY
+==================================================
+Attack Generation Time: 30.44 minutes
+Attack Testing Time: 140.52 minutes
+Total Execution Time: 170.96 minutes

@@ -1,0 +1,17 @@
+phishintention/src/phishpedia_siamese/expand_targetlist/
+src/tele/
+discovery_results/
+*.pkl
+*.zip
+*/__pycache__/*
+*.pth*
+models/*
+*.DS_Store
+*.pyc
+*datasets/test_sites/*
+WhiteBox_attack_results/*
+WhiteBox_attack_results2/*
+WhiteBox_attack_results3/*
+BlackBox_attack_results/*
+BlackBox_attack_results2/*
+BlackBox_attack_results3/*

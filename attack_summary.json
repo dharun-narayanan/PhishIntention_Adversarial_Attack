@@ -1,0 +1,99 @@
+{
+  "PayPal Inc.+2020-05-25-00`01`23": {
+    "original_pred": 1,
+    "url": "{'sector': 'Payment Services', 'url': 'http://shadetreetechnology.com/V4/validation/1943c283698d897b60e744757389df31', 'ip': '198.71.233.214', 'brand': 'PayPal Inc.', 'isotime': '2020-05-23T07:54:18Z', 'asn_name': 'GoDaddy.com, LLC', 'discover_time': '23-05-2020 07:54:18 UTC', 'asn': 'AS26496', 'family_id': '0deadb10d769e27fc284b14ede3e5edb', 'host': 'shadetreetechnology.com', 'country_code': 'US', 'tld': 'com', 'country_name': 'United States of America', 'phishing_kit': None, 'emails': []}",
+    "attacks": {
+      "uap": {
+        "uap_variation_4.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_3.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_0.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      }
+    }
+  },
+  "Outlook+2020-09-10-18`09`36": {
+    "original_pred": 1,
+    "url": "{'sector': 'Email Provider', 'url': 'http://iwllgibaatgxuoaf-dot-millinium.ey.r.appspot.com/', 'ip': '108.177.126.153', 'brand': 'Outlook', 'isotime': '2020-09-09T23:09:09Z', 'asn_name': 'Google LLC', 'discover_time': '09-09-2020 23:09:09 UTC', 'family_id': 'f50d70f62fb167a4e926735ccd8c4e5b', 'host': 'iwllgibaatgxuoaf-dot-millinium.ey.r.appspot.com', 'country_code': 'NL', 'tld': 'com', 'country_name': 'Netherlands', 'asn': 'AS15169'}",
+    "attacks": {
+      "jpeg": {
+        "jpeg_variation_1.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "jpeg_variation_2.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      },
+      "uap": {
+        "uap_variation_3.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_2.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_1.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      }
+    }
+  },
+  "Office365+2019-07-30-17`16`55": {
+    "original_pred": 1,
+    "url": "{'sector': 'Online Services', 'url': 'http://microsoftsonedrive.com/signed/microsoft_logo.png_b_11604.36600-22.htm', 'ip': '160.153.128.37', 'brand': 'Office365', 'isotime': '2019-07-30T07:41:59Z', 'asn_name': 'GoDaddy.com, LLC', 'discover_time': '30-07-2019 07:41:59 UTC', 'asn': 'AS26496', 'family_id': '5925f41e3300e408f50176d76dcc1e92', 'host': 'microsoftsonedrive.com', 'country_code': 'US', 'tld': 'com', 'country_name': 'United States of America', 'phishing_kit': None, 'emails': []}",
+    "attacks": {
+      "uap": {
+        "uap_variation_4.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_3.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      }
+    }
+  },
+  "G22 Online Gaming+2020-08-24-09`38`35": {
+    "original_pred": 0,
+    "url": "{'sector': 'Gaming', 'url': 'http://m.hf839.com/', 'ip': '103.41.65.73', 'brand': 'G22 Online Gaming', 'isotime': '2020-08-23T21:04:31Z', 'asn_name': 'Sun Network (Hong Kong) Limited - HongKong Backbone', 'discover_time': '23-08-2020 21:04:31 UTC', 'family_id': '3e5acbf514075d2ee32668ba54482044', 'host': 'm.hf839.com', 'country_code': 'HK', 'tld': 'com', 'country_name': 'Hong Kong', 'asn': 'AS38197'}",
+    "attacks": {}
+  },
+  "Outlook+2020-09-13-12`06`59": {
+    "original_pred": 1,
+    "url": "{'sector': 'Email Provider', 'url': 'http://dsvzodnburvwaflo-dot-millinium.ey.r.appspot.com/', 'ip': '172.217.218.153', 'brand': 'Outlook', 'isotime': '2020-09-12T04:30:32Z', 'asn_name': 'Google LLC', 'discover_time': '12-09-2020 04:30:32 UTC', 'family_id': '05183f87b726d57af77e7c8859fecd4f', 'host': 'dsvzodnburvwaflo-dot-millinium.ey.r.appspot.com', 'country_code': 'NL', 'tld': 'com', 'country_name': 'Netherlands', 'asn': 'AS15169'}",
+    "attacks": {
+      "jpeg": {
+        "jpeg_variation_3.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      },
+      "uap": {
+        "uap_variation_4.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_2.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        },
+        "uap_variation_1.png": {
+          "prediction": 0,
+          "original_prediction": 1
+        }
+      }
+    }
+  }
+}
